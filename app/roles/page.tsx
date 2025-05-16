@@ -39,7 +39,7 @@ export default function RolesPage() {
   ]
 
   return (
-    <main className="flex flex-col min-h-screen bg-[#f7f3e9] text-[#333] pt-32">
+    <main className="flex flex-col min-h-screen bg-[#f7f3e9] text-[#333] pt-40">
       <div className="max-w-[1200px] mx-auto px-6 py-16">
         <h1 className="text-3xl font-bold mb-12">IT Roles We Provide</h1>
 
