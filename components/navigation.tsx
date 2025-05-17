@@ -75,8 +75,8 @@ export function Navigation() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/images/logo.png"
-            alt="Steel Horizon Solutions Logo"
+            src="/images/steel-horizon-logo.png"
+            alt="Steel Horizon Logo"
             width={200}
             height={55}
             className="h-auto"

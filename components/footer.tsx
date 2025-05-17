@@ -10,7 +10,7 @@ export function Footer() {
           {/* Column 1: Logo and About */}
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="inline-block mb-6">
-              <Image src="/images/logo.png" alt="Steel Horizon" width={200} height={55} />
+              <Image src="/images/steel-horizon-logo.png" alt="Steel Horizon" width={200} height={55} />
             </Link>
             <p className="text-gray-600 mb-6">
               Connecting businesses with exceptional IT professionals worldwide, enabling remote work excellence and
