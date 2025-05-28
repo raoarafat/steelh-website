@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Mail, Phone, MapPin } from "lucide-react"
+import { Mail, Phone, MapPin } from 'lucide-react'
 
 export function Footer() {
   return (
@@ -104,6 +104,9 @@ export function Footer() {
 
         <div className="border-t border-gray-300 mt-12 pt-8 text-center text-gray-600">
           <p>&copy; {new Date().getFullYear()} Steel Horizon Solutions Sdn Bhd. All rights reserved.</p>
+          <Link href="/anti-bribery-policy" className="text-gray-600 hover:text-black transition-colors block mt-4">
+            Anti-Bribery Anti-Corruption Policy
+          </Link>
         </div>
       </div>
     </footer>
