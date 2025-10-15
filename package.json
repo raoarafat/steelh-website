@@ -1,12 +1,14 @@
 {
-  "name": "my-v0-project",
+  "name": "steelh-website",
   "version": "0.1.0",
   "private": true,
+  "description": "Steel Horizon Solutions - IT Manpower Services Website",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rm -rf .next"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
