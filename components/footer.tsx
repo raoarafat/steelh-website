@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Mail, Phone, MapPin } from "lucide-react"
+import { Mail, Phone, MapPin } from 'lucide-react'
 
 export function Footer() {
   return (
@@ -10,7 +10,7 @@ export function Footer() {
           {/* Column 1: Logo and About */}
           <div className="col-span-1 md:col-span-1">
             <Link href="/" className="inline-block mb-6">
-              <Image src="/images/logo.png" alt="Steel Horizon" width={200} height={55} />
+              <Image src="/images/steel-horizon-logo.png" alt="Steel Horizon" width={200} height={55} />
             </Link>
             <p className="text-gray-600 mb-6">
               Connecting businesses with exceptional IT professionals worldwide, enabling remote work excellence and
@@ -104,6 +104,9 @@ export function Footer() {
 
         <div className="border-t border-gray-300 mt-12 pt-8 text-center text-gray-600">
           <p>&copy; {new Date().getFullYear()} Steel Horizon Solutions Sdn Bhd. All rights reserved.</p>
+          <Link href="/anti-bribery-policy" className="text-gray-600 hover:text-black transition-colors block mt-4">
+            Anti-Bribery Anti-Corruption Policy
+          </Link>
         </div>
       </div>
     </footer>
