@@ -30,112 +30,96 @@ export default function WorkPage() {
       {/* Featured Projects */}
       <section className="py-24 bg-[#f7f3e9]">
         <div className="max-w-[1200px] mx-auto px-6">
-          {/* Project 1 */}
+          <div className="mb-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-[#333]">
+              Featured Projects
+            </h2>
+            <p className="text-lg text-[#555]">
+              Real client success stories showcasing our IT staffing expertise
+            </p>
+          </div>
+
+          {/* Project 1 - AirAsia (Featured) */}
           <div className="mb-32">
+            <div className="bg-gradient-to-r from-[#d30b1b] to-[#ff0000] p-3 inline-block mb-4">
+              <span className="text-white font-bold text-sm">
+                FEATURED PROJECT
+              </span>
+            </div>
             <div className="relative h-[600px] mb-8 overflow-hidden group">
               <Image
-                src="https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg"
-                alt="Financial Services IT Transformation"
+                src="https://images.pexels.com/photos/723240/pexels-photo-723240.jpeg"
+                alt="AirAsia Database Metadata System"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                <div className="p-8">
+                  <h3 className="text-4xl font-bold text-white mb-2">
+                    AirAsia Airlines
+                  </h3>
+                  <p className="text-xl text-white/90">
+                    Database Metadata & Data Dictionary System
+                  </p>
+                </div>
+              </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
-                <h3 className="text-3xl font-medium mb-2">
-                  Financial Services IT Transformation
-                </h3>
-                <p className="text-gray-400">Banking & Financial Services</p>
+                <h4 className="text-2xl font-bold mb-4 text-[#333]">Client</h4>
+                <p className="text-lg text-[#555] mb-2">AirAsia Airlines</p>
+                <p className="text-sm text-[#555]">
+                  Aviation Industry | Malaysia
+                </p>
               </div>
               <div>
-                <p className="text-gray-300 mb-6">
-                  We helped a leading financial institution build a specialized
-                  team of 25 IT professionals to modernize their legacy systems,
-                  resulting in a 40% improvement in processing times and
-                  enhanced security protocols.
+                <h4 className="text-2xl font-bold mb-4 text-[#333]">
+                  Project Overview
+                </h4>
+                <p className="text-[#555] mb-6">
+                  Steel Horizon Solutions assembled a specialized team of
+                  database engineers and developers to design and implement a
+                  comprehensive Database Metadata and Data Dictionary system for
+                  AirAsia, Southeast Asia's leading low-cost carrier.
                 </p>
-                <Link href="/work/financial-services-transformation">
-                  <Button
-                    variant="outline"
-                    className="border-[#333] text-[#333] hover:bg-[#333] hover:text-[#f7f3e9] rounded-full"
-                  >
-                    View Case Study
+                <div className="grid grid-cols-3 gap-4 mb-6">
+                  <div>
+                    <p className="text-2xl font-bold text-[#4d80e4]">8</p>
+                    <p className="text-sm text-[#555]">Team Members</p>
+                  </div>
+                  <div>
+                    <p className="text-2xl font-bold text-[#4d80e4]">16</p>
+                    <p className="text-sm text-[#555]">Weeks Duration</p>
+                  </div>
+                  <div>
+                    <p className="text-2xl font-bold text-[#4d80e4]">100%</p>
+                    <p className="text-sm text-[#555]">Coverage Achieved</p>
+                  </div>
+                </div>
+                <Link href="/work/airasia-database-metadata">
+                  <Button className="bg-[#333] text-[#f7f3e9] hover:bg-black">
+                    View Full Case Study →
                   </Button>
                 </Link>
               </div>
             </div>
           </div>
 
-          {/* Project 2 */}
-          <div className="mb-32">
-            <div className="relative h-[600px] mb-8 overflow-hidden group">
-              <Image
-                src="https://images.pexels.com/photos/1170979/pexels-photo-1170979.jpeg"
-                alt="Healthcare IT Staffing"
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-3xl font-medium mb-2">
-                  Healthcare IT Staffing
-                </h3>
-                <p className="text-gray-400">Healthcare</p>
-              </div>
-              <div>
-                <p className="text-gray-300 mb-6">
-                  We provided a healthcare provider with a dedicated team of IT
-                  specialists to implement a new electronic health records
-                  system, improving patient data management and reducing
-                  administrative overhead by 35%.
-                </p>
-                <Link href="/work/healthcare-it-staffing">
-                  <Button
-                    variant="outline"
-                    className="border-[#333] text-[#333] hover:bg-[#333] hover:text-[#f7f3e9] rounded-full"
-                  >
-                    View Case Study
-                  </Button>
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Project 3 */}
-          <div>
-            <div className="relative h-[600px] mb-8 overflow-hidden group">
-              <Image
-                src="https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg"
-                alt="E-commerce Platform Development"
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-              />
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div>
-                <h3 className="text-3xl font-medium mb-2">
-                  E-commerce Platform Development
-                </h3>
-                <p className="text-gray-400">Retail</p>
-              </div>
-              <div>
-                <p className="text-gray-300 mb-6">
-                  We assembled a specialized team of developers, architects, and
-                  QA engineers to help a retail brand build a scalable
-                  e-commerce platform, resulting in a 30% increase in online
-                  sales and improved customer experience.
-                </p>
-                <Link href="/work/ecommerce-platform-development">
-                  <Button
-                    variant="outline"
-                    className="border-[#333] text-[#333] hover:bg-[#333] hover:text-[#f7f3e9] rounded-full"
-                  >
-                    View Case Study
-                  </Button>
-                </Link>
-              </div>
-            </div>
+          {/* More Projects Coming Soon */}
+          <div className="bg-white p-12 text-center border-2 border-dashed border-gray-300">
+            <h3 className="text-2xl font-bold mb-4 text-[#333]">
+              More Success Stories Coming Soon
+            </h3>
+            <p className="text-[#555] mb-6 max-w-2xl mx-auto">
+              We're currently working with several clients across different
+              industries. Check back soon for more detailed case studies
+              showcasing our IT staffing expertise.
+            </p>
+            <Link href="/contact">
+              <Button className="bg-[#4d80e4] text-white hover:bg-[#3a6ad4]">
+                Become Our Next Success Story
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
