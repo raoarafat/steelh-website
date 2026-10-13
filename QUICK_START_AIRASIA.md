@@ -2,7 +2,7 @@
 
 ## 🚀 What Was Built
 
-Your AirAsia Airlines Database Metadata project is now professionally showcased across your website!
+Your Aviaiton Airlines Database Metadata project is now professionally showcased across your website!
 
 ---
 

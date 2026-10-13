@@ -369,9 +369,9 @@ The case study page includes:
 
 ```tsx
 export const metadata = {
-  title: 'AirAsia Database Metadata System | Steel Horizon Solutions',
+  title: 'Aviaiton Database Metadata System | Steel Horizon Solutions',
   description:
-    'Case study of how Steel Horizon Solutions delivered a comprehensive database metadata system for AirAsia Airlines.',
+    'Case study of how Steel Horizon Solutions delivered a comprehensive database metadata system for Aviaiton Airlines.',
 };
 ```
 

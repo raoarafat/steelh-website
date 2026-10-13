@@ -21,7 +21,7 @@ export default function AirAsiaProjectPage() {
         <div className="absolute inset-0 z-0 opacity-20">
           <Image
             src="https://images.pexels.com/photos/723240/pexels-photo-723240.jpeg"
-            alt="AirAsia aircraft"
+            alt="Aviaiton aircraft"
             fill
             className="object-cover"
             priority
@@ -35,7 +35,7 @@ export default function AirAsiaProjectPage() {
               </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
-              AirAsia Airlines
+              Aviaiton Industry
             </h1>
             <h2 className="text-2xl md:text-3xl mb-6 text-white/90">
               Database Metadata & Data Dictionary System
@@ -54,7 +54,7 @@ export default function AirAsiaProjectPage() {
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
             <div className="text-center">
               <div className="text-3xl font-bold text-[#d30b1b] mb-2">
-                AirAsia
+                Aviation
               </div>
               <p className="text-sm text-[#555]">Client</p>
             </div>
@@ -89,7 +89,7 @@ export default function AirAsiaProjectPage() {
                 Project Overview
               </h2>
               <p className="text-lg mb-6 text-[#555] leading-relaxed">
-                AirAsia, Southeast Asia's largest low-cost carrier, required a
+                Aviation, Southeast Asia's largest low-cost carrier, required a
                 robust Database Metadata and Data Dictionary system to manage
                 their extensive data infrastructure. Steel Horizon Solutions
                 assembled a specialized team of database engineers and
@@ -97,7 +97,7 @@ export default function AirAsiaProjectPage() {
               </p>
               <p className="text-lg mb-6 text-[#555] leading-relaxed">
                 The system provides comprehensive metadata management, enabling
-                AirAsia's data teams to efficiently catalog, document, and
+                Aviation's data teams to efficiently catalog, document, and
                 govern their database assets across multiple systems and
                 platforms.
               </p>
@@ -109,7 +109,7 @@ export default function AirAsiaProjectPage() {
                   and delivered a solution that exceeded our expectations."
                 </p>
                 <p className="text-sm text-[#555] mt-3">
-                  — IT Project Manager, AirAsia
+                  — IT Project Manager, Aviaiton
                 </p>
               </div>
             </div>
@@ -139,7 +139,7 @@ export default function AirAsiaProjectPage() {
                 icon: Database,
                 title: 'Complex Data Infrastructure',
                 description:
-                  'Managing metadata across multiple database systems, including legacy and modern platforms used throughout AirAsia operations.',
+                  'Managing metadata across multiple database systems, including legacy and modern platforms used throughout Aviaiton operations.',
               },
               {
                 icon: FileText,
@@ -311,7 +311,7 @@ export default function AirAsiaProjectPage() {
                 {
                   title: 'API Integration',
                   description:
-                    'RESTful APIs for integration with other data management and BI tools in AirAsia ecosystem.',
+                    'RESTful APIs for integration with other data management and BI tools in Aviaiton ecosystem.',
                 },
               ].map((feature, index) => (
                 <div
@@ -470,14 +470,12 @@ export default function AirAsiaProjectPage() {
               ].map((milestone, index) => (
                 <div
                   key={index}
-                  className={`relative grid grid-cols-1 md:grid-cols-2 gap-8 ${
-                    index % 2 === 0 ? 'md:text-right' : ''
-                  }`}
+                  className={`relative grid grid-cols-1 md:grid-cols-2 gap-8 ${index % 2 === 0 ? 'md:text-right' : ''
+                    }`}
                 >
                   <div
-                    className={`${
-                      index % 2 === 0 ? 'md:col-start-1' : 'md:col-start-2'
-                    }`}
+                    className={`${index % 2 === 0 ? 'md:col-start-1' : 'md:col-start-2'
+                      }`}
                   >
                     <div className="bg-white p-6 border border-gray-200 shadow-sm">
                       <div className="flex items-center mb-4">
@@ -521,7 +519,7 @@ export default function AirAsiaProjectPage() {
             Need Specialized IT Talent for Your Project?
           </h2>
           <p className="text-xl max-w-2xl mx-auto mb-8 text-[#f7f3e9]/80">
-            Like AirAsia, you can leverage our global network of skilled IT
+            Like Aviaiton, you can leverage our global network of skilled IT
             professionals to deliver your critical projects on time and within
             budget.
           </p>

@@ -88,7 +88,7 @@ export default function HomePage() {
                   SUCCESS STORY
                 </span>
               </div>
-              <h3 className="text-2xl font-bold mb-2">AirAsia Airlines</h3>
+              <h3 className="text-2xl font-bold mb-2"> Aviation Industry</h3>
               <h4 className="text-lg mb-4 text-white/90">
                 Database Metadata & Data Dictionary System
               </h4>
@@ -120,7 +120,7 @@ export default function HomePage() {
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
               <Image
                 src="https://images.pexels.com/photos/723240/pexels-photo-723240.jpeg"
-                alt="AirAsia project"
+                alt="Aviaiton project"
                 fill
                 className="object-cover"
               />
