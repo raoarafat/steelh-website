@@ -39,7 +39,7 @@ export default function WorkPage() {
             </p>
           </div>
 
-          {/* Project 1 - AirAsia (Featured) */}
+          {/* Project 1 -  (Featured) */}
           <div className="mb-32">
             <div className="bg-gradient-to-r from-[#d30b1b] to-[#ff0000] p-3 inline-block mb-4">
               <span className="text-white font-bold text-sm">
@@ -49,14 +49,14 @@ export default function WorkPage() {
             <div className="relative h-[600px] mb-8 overflow-hidden group">
               <Image
                 src="https://images.pexels.com/photos/723240/pexels-photo-723240.jpeg"
-                alt="AirAsia Database Metadata System"
+                alt="Aviaiton Database Metadata System"
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
                 <div className="p-8">
                   <h3 className="text-4xl font-bold text-white mb-2">
-                    AirAsia Airlines
+                    Aviaiton Industry
                   </h3>
                   <p className="text-xl text-white/90">
                     Database Metadata & Data Dictionary System
@@ -67,7 +67,7 @@ export default function WorkPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h4 className="text-2xl font-bold mb-4 text-[#333]">Client</h4>
-                <p className="text-lg text-[#555] mb-2">AirAsia Airlines</p>
+                <p className="text-lg text-[#555] mb-2">Aviaiton Industry</p>
                 <p className="text-sm text-[#555]">
                   Aviation Industry | Malaysia
                 </p>
@@ -80,7 +80,7 @@ export default function WorkPage() {
                   Steel Horizon Solutions assembled a specialized team of
                   database engineers and developers to design and implement a
                   comprehensive Database Metadata and Data Dictionary system for
-                  AirAsia, Southeast Asia's leading low-cost carrier.
+                  Aviation, Southeast Asia's leading low-cost carrier.
                 </p>
                 <div className="grid grid-cols-3 gap-4 mb-6">
                   <div>

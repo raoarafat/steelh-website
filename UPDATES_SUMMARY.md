@@ -1,4 +1,4 @@
-# AirAsia Project - Updates Summary
+# Aviaiton Project - Updates Summary
 
 ## ✅ Corrections Applied
 
@@ -314,7 +314,7 @@ Before going live, verify:
 - [x] Timeline reflects 16-week schedule
 - [x] Navigation menu includes Portfolio
 - [x] Mobile navigation updated
-- [ ] Get AirAsia approval for updated details
+- [ ] Get Aviation approval for updated details
 - [ ] Verify all role descriptions are accurate
 - [ ] Confirm timeline phases with project manager
 
@@ -322,7 +322,7 @@ Before going live, verify:
 
 ## 🎊 **Summary**
 
-Your AirAsia project showcase now accurately reflects:
+Your Aviaiton project showcase now accurately reflects:
 
 ✅ **8-person team** (up from 5)
 ✅ **16-week delivery** (corrected from 18)
@@ -330,7 +330,7 @@ Your AirAsia project showcase now accurately reflects:
 ✅ **Prominent navigation placement** (easily discoverable)
 ✅ **Enhanced technical scope** (better represented)
 
-The project now properly showcases the **scale, complexity, and multidisciplinary expertise** involved in delivering this enterprise solution for AirAsia! 🚀
+The project now properly showcases the **scale, complexity, and multidisciplinary expertise** involved in delivering this enterprise solution for Aviation! 🚀
 
 ---
 
