@@ -97,14 +97,14 @@ export function Navigation() {
             </Link>
           </div>
 
-          <div>
+          {/* <div>
             <Link
               href="/work"
               className="text-[#333] hover:text-[#4d80e4] transition-colors text-sm font-semibold"
             >
               Portfolio
             </Link>
-          </div>
+          </div> */}
 
           <div
             className="relative group"
