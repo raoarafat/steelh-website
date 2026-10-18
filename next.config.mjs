@@ -9,6 +9,12 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  async redirects() {
+    return [
+      { source: '/work', destination: '/', permanent: false },
+      { source: '/work/:path*', destination: '/', permanent: false },
+    ]
+  },
 }
 
 export default nextConfig

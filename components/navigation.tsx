@@ -176,13 +176,13 @@ export function Navigation() {
             >
               Services
             </Link>
-            <Link
+            {/* <Link
               href="/work"
               className="text-[#333] hover:text-[#4d80e4] transition-colors py-2 font-semibold"
               onClick={toggleMenu}
             >
               Portfolio
-            </Link>
+            </Link> */}
             <Link
               href="/roles"
               className="text-[#333] hover:text-[#4d80e4] transition-colors py-2"

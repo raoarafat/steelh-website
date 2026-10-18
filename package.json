@@ -4,9 +4,9 @@
   "private": true,
   "description": "Steel Horizon Solutions - IT Manpower Services Website",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node api.js && next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node api.js && next start",
     "lint": "next lint",
     "clean": "rm -rf .next"
   },

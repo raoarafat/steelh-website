@@ -42,7 +42,7 @@ export default function IndustriesPage() {
                   We provide specialized IT talent for financial institutions, helping them build secure, compliant, and
                   innovative technology systems.
                 </p>
-                <Link href="/work/finance" className="text-white font-medium hover:underline inline-flex items-center">
+                {/* <Link href="/work/finance" className="text-white font-medium hover:underline inline-flex items-center">
                   Learn more
                   <svg
                     className="w-4 h-4 ml-2"
@@ -53,7 +53,7 @@ export default function IndustriesPage() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -73,7 +73,7 @@ export default function IndustriesPage() {
                   Our healthcare IT staffing solutions focus on providing skilled professionals who understand HIPAA
                   compliance and healthcare-specific technologies.
                 </p>
-                <Link
+                {/* <Link
                   href="/work/healthcare"
                   className="text-white font-medium hover:underline inline-flex items-center"
                 >
@@ -87,7 +87,7 @@ export default function IndustriesPage() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -107,7 +107,7 @@ export default function IndustriesPage() {
                   We help technology companies scale quickly with specialized talent across software development, cloud
                   infrastructure, and product engineering.
                 </p>
-                <Link
+                {/* <Link
                   href="/work/technology"
                   className="text-white font-medium hover:underline inline-flex items-center"
                 >
@@ -121,7 +121,7 @@ export default function IndustriesPage() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -141,7 +141,7 @@ export default function IndustriesPage() {
                   Our retail IT staffing solutions provide talent specialized in e-commerce platforms, POS systems, and
                   omnichannel technology integration.
                 </p>
-                <Link href="/work/retail" className="text-white font-medium hover:underline inline-flex items-center">
+                {/* <Link href="/work/retail" className="text-white font-medium hover:underline inline-flex items-center">
                   Learn more
                   <svg
                     className="w-4 h-4 ml-2"
@@ -152,7 +152,7 @@ export default function IndustriesPage() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -172,7 +172,7 @@ export default function IndustriesPage() {
                   We provide IT professionals who understand the unique technology needs of educational institutions,
                   from LMS platforms to student information systems.
                 </p>
-                <Link
+                {/* <Link
                   href="/work/education"
                   className="text-white font-medium hover:underline inline-flex items-center"
                 >
@@ -186,7 +186,7 @@ export default function IndustriesPage() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </div>
 
@@ -206,7 +206,7 @@ export default function IndustriesPage() {
                   Our manufacturing IT staffing solutions focus on professionals experienced with ERP systems, IoT,
                   automation, and industrial control systems.
                 </p>
-                <Link
+                {/* <Link
                   href="/work/manufacturing"
                   className="text-white font-medium hover:underline inline-flex items-center"
                 >
@@ -220,7 +220,7 @@ export default function IndustriesPage() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

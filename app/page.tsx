@@ -68,7 +68,7 @@ export default function HomePage() {
       </section>
 
       {/* Spotlight Section */}
-      <section className="py-16 bg-[#f0ece2]">
+      {/* <section className="py-16 bg-[#f0ece2]">
         <div className="max-w-[1200px] mx-auto px-6">
           <div className="flex justify-between items-center mb-8">
             <h2 className="text-2xl font-bold text-[#333]">Featured Project</h2>
@@ -127,7 +127,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Services Section */}
       <section className="py-16 bg-[#f7f3e9]">
